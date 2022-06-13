@@ -1,0 +1,265 @@
+
+.store{
+    width: 90%;
+    margin: auto;
+}
+
+
+.item{
+    background-color: #F28705;
+    margin-top: 30px ;
+   
+    border-radius: 10px;
+}
+
+.items h5{
+    margin-left:10px ;
+    font-size: 30px;
+    color: #000;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    padding-top:15px ;
+    margin-bottom:15px ;
+    margin-top: 40px ;
+}
+.item h3{
+    margin-top:15px ;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.item img{
+    width: 90%;
+    margin: auto;
+    margin-top:20px ;
+    margin-bottom:15px ;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.item-image{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top:20px ;
+    margin-bottom:15px ;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+
+.item-title{
+    font-family: 'nunito';
+}
+
+.item-details{
+    display: grid;
+    grid-template-columns: 70% 29%;
+ 
+}
+.shopping-cart-total p{
+    display: inline;
+}
+
+.shopping-cart-image{
+width: 80px;
+  border-radius: 20px;
+}
+
+.item-price{
+    margin-left: 25px;
+    margin-bottom:20px ;
+    padding-top:13px ;
+    font-size: 20px;
+    color: white;
+    font-family: 'nunito';
+}
+.item-button {
+  outline: none;
+    padding: 10px 10px 10px 10px ;
+    margin: auto;
+    display: block;
+   border-radius:10px ;
+   border:none ;
+   cursor: pointer;
+    background-color: #1f1a0c;
+    color:white ;
+}
+
+.grid{
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.shopping-cart{
+    background-color: #F28705;
+    border-radius:20px ;
+    margin-bottom:90px ;
+    gap: 5px;
+    grid-template-columns: 45% 35% 20%;
+    width: 90%;
+    margin: auto;
+}
+
+.pro{
+    margin-left:20px ;
+    font-size: 20px;
+    font-family: 'nunito';
+    color: white;
+
+}
+.carro{
+    text-align: center;
+    font-family: 'nunito';
+    color: white;
+    font-size: 60px;
+    margin:30px ;
+}
+
+
+.grid2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.grid2 h6{
+    color: white;
+    font-size: 20px;
+    font-family: 'nunito';
+}
+/* ? SHOPPING CART */
+.shopping-cart-items {
+    padding: 20px 0px;
+    margin-bottom:20px ;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    
+    margin-left:20px ;
+    border-radius: 20px;
+  }
+
+  .shopping-cart-item-title{
+      color: white;
+      font-size: 18px;
+      padding-top:13px ;
+      float:right;
+      font-family: 'nunito';
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    margin-top: 10px ;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+    color: white;
+  }
+  
+ 
+
+  .btn-danger,.btn-success{
+    outline: none;
+    padding: 10px 10px 10px 10px ;
+   cursor: pointer;
+    float: right;
+    margin-top:10px ;
+    margin-right: 40px;
+   border-radius:10px ;
+    border:none ;
+    background-color: #1f1a0c;
+    color:white ;
+  }
+  
+  .shoppingCartItem{
+    margin-bottom:30px ;
+}
+
+  /*RESPONSIVE PARA CELULARES Y TABLES DE BAJA RESOLUCIÓN*/
+
+@media (max-width: 759px) {
+
+    .items h5{
+       
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    
+    }
+
+    .grid{
+        
+        grid-template-columns: 1fr ;
+    }
+    .grid2 h6{
+        color: white;
+        font-size: 15px;
+        font-family: 'nunito';
+        margin-bottom:20px ;
+    }
+    
+
+    .btn-danger,.btn-success{
+        outline: none;
+        padding: 10px 10px 10px 10px ;
+        float: right;
+        margin-top:10px ;
+        margin-right: 20px;
+
+      }
+
+      .pro{
+          font-size: 18px;
+      }
+
+      .carro{
+          margin: 25px;
+          font-size: 25px;
+      }
+      
+    .shoppingCartItem{
+        margin-bottom:30px ;
+    }
+    
+    
+}
+
+@media (min-width : 760px) and (max-width : 1150px){
+    .grid{
+        
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .shopping-cart-item-title{
+      font-size: 18px;
+        float: left;
+        margin-left: 20px ;
+        font-family: 'nunito';
+    }
+
+    .shoppingCartItem{
+        margin-bottom:30px ;
+    }
+
+
+}

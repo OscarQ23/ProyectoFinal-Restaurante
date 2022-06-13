@@ -1,0 +1,77 @@
+.card{
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: #F28705;
+    margin-top: 30px ;
+    margin-bottom:30px ;
+    border-radius: 10px;
+}
+
+.card-info h3{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+.card-info p{
+    font-family: 'nunito';
+    font-size: 18px;
+    padding-top: 10px ;
+    padding-bottom:10px ;
+}
+
+.card img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top:20px ;
+    border-radius: 10px;
+    
+}
+
+.card-info {
+    margin-top:20px ;
+    margin-bottom:20px ;
+    margin-left:20px ;
+
+}
+.card img{
+    min-height:200px ;
+    max-height: 200px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+/*RESPONSIVE PARA CELULARES Y TABLES DE BAJA RESOLUCIÓN*/
+
+@media (max-width: 759px) {
+
+    .contenedor{
+        grid-template-columns: 100% 
+    }
+    .card-info p{
+
+        font-size: 13px;
+        
+    }
+}
+
+/*RESPONSIVE PARA ipads y tablets*/
+
+@media (min-width : 760px) and (max-width : 1150px){
+
+    .contenedor{
+        grid-template-columns: 50% 50%;
+    }
+
+    .card-info p{
+
+        font-size: 18px;
+        
+    }
+    
+}

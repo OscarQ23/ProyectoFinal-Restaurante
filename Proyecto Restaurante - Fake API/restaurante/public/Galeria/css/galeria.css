@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+img {
+    List-style:none;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .galeria {
+    List-style:none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+    padding:60px ;
+    width: 100%;
+    overflow: hidden;
+    grid-gap: 30px;
+    display: grid;
+
+
+  }
+  
+  .galeria__item {
+    width: 50%;
+    List-style:none;
+    cursor: pointer;
+  }
+
+  .galeria__item img{
+    height: 250px;
+    width: 100%;
+  }
+
+  .modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal__img {
+    width: 100%;
+    max-width: 750px;
+  }
+  
+  .modal__boton {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'nunito';
+    line-height: 50px;
+    text-align: center;
+    background: #F28705;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+  }
+
+
+  
+/*RESPONSIVE PARA CELULARES Y TABLES DE BAJA RESOLUCIÓN*/
+
+@media (max-width: 759px) {
+
+
+  .galeria{
+    grid-template-columns: 100%;
+    padding:10px ;
+    width: 100%;
+    overflow: hidden;
+    grid-gap: 30px;
+    display: grid;
+  }
+
+  .galeria__item {
+    width: 100%;
+}
+
+.modal__img {
+  width: 100%;
+  max-width: 550px;
+}
+
+}
+
+/*RESPONSIVE PARA ipads y tablets*/
+
+@media (min-width : 760px) and (max-width : 1150px){
+
+  .galeria{
+     grid-template-columns: 50% 50%;
+     width: 100%;
+     grid-gap: 0px;
+  }
+
+  .galeria__item {
+    display: block;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 90%;
+  } 
+
+  .modal__img {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .contenedor{
+  width: 100%;
+  }
+
+}
+
+@media (min-width:1152px) {
+
+  .galeria{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 100%;
+    grid-gap: 0px;
+ }
+
+ .galeria__item {
+   display: block;
+   padding-bottom: 40px;
+   margin: auto;
+   width: 90%;
+}
+
+.contenedor{
+ width: 100%;
+}
+  
+
+
+}
+
+
+
+  

@@ -1,0 +1,173 @@
+{
+    "Menu":[
+    {
+        "id":1,
+
+        "plato":"Carne Asada",
+        "precio":"2.50 $",
+        "Descripcion":"Carne,Arroz,Tortilla,Chimol",
+        "flag":"https://linderonorte.files.wordpress.com/2015/02/carnita-asada-ok.jpg"        
+    },
+    
+    {
+        "id":2,
+        "plato":"Pollo Frito",
+        "precio":"2.50 $",
+        "Descripcion":"Pollo,Arroz,Tortilla,Aguacate",
+        "flag":" https://comohacerpara.com/imgl/18269-receta-pollo-frito-estilo-kfc_l.jpg"
+    },
+    {
+        "id":3,
+        "plato":"Tortitas de Carne",
+        "precio":"2.00 $",
+        "Descripcion":"Tortitas,Arroz,Tortilla,Chimol",
+        "flag":"  https://www.cocinavital.mx/wp-content/uploads/2017/10/tortitas-de-carne-de-res.jpg" 
+    },
+    {
+        "id":4,
+        "plato":"Sopa de Frijoles",
+        "precio":"2.00 $",
+        "Descripcion":"Sopa,Aguacate,Tortilla",
+        "flag":"  https://simplementegenial.cc/wp-content/uploads/s/sopa-de-frijoles/thumb.jpg"
+        
+    },
+    {
+        "id":5,
+        "plato":"Arepas",
+        "precio":"1.50 $",
+        "Descripcion":"Arepa con Jamon y queso",
+        "flag":"https://th.bing.com/th/id/OIP.nrjx1901SaYkfzcZ5P5UUQHaEK?pid=Api&rs=1"
+        
+    },
+    {
+        "id":6,
+        "plato":"Pupusas",
+        "precio":"0.30 $",
+        "Descripcion":"Queso,Revueltas,Ayote",
+        "flag":"https://chefjames.com/wp-content/uploads/2018/04/pupusas-salvadore%C3%B1as.jpg"
+    },
+
+    {
+        "id":7,
+        "plato":"Relleno de Papa",
+        "precio":"2.00 $",
+        "Descripcion":"Relleno,Arroz,Tomate",
+        "flag":"http://4.bp.blogspot.com/-PNO9hgnpjmg/T4TnUB7U6tI/AAAAAAAAAEA/_kUg2GXEii0/s1600/RECETA+DE+PAPA+RELLENA+%28PERUANA%292.jpg"
+    },
+
+    {
+        "id":8,
+        "plato":"Lasaña",
+        "precio":"2.00 $",
+        "Descripcion":"Carne,Pollo",
+        "flag":"http://assets.kraftfoods.com/recipe_images/opendeploy/51638_640x428.jpg"
+    },
+    {
+        "id":9,
+        "plato":"Tacos",
+        "precio":"0.70 $",
+        "Descripcion":"Carne,Pollo,Pastor",
+        "flag":"https://th.bing.com/th/id/OIP.ealvKAbgbVfqVd512JuCvQHaEK?pid=Api&rs=1"
+    },
+    {
+        "id":10,
+        "plato":"Hamburgesa",
+        "precio":"2.50 $",
+        "Descripcion":"Carne,Pollo,Papas",
+        "flag":"https://th.bing.com/th/id/OIP.jHVUOEdX7ZWXopLZGDalwQHaFj?pid=Api&rs=1"
+    },
+    {
+        "id":11,
+        "plato":"Papas Fritas",
+        "precio":"0.75 $",
+        "Descripcion":"Papas,Queso,Ketchup",
+        "flag":"https://www.bbva.com/wp-content/uploads/2019/08/Dia_internacional_de_la_papa_frita_BBVA_opt-1024x559.png"
+    },
+    {
+        "id":12,
+        "plato":"Pan Dulce",
+        "precio":"2.00 $",
+        "Descripcion":"Zemita ,Alfagor,Picuda",
+        "flag":"https://th.bing.com/th/id/OIP.HV81yuM7kg-iBeyYA8WhZwHaFX?pid=Api&rs=1"
+    },
+    {
+        "id":13,
+        "plato":"Jugos",
+        "precio":"1.00 $",
+        "Descripcion":"Zanahoria,Naranja,Fresa",
+        "flag":"https://th.bing.com/th/id/OIP.AUNcJF7gNZBdS5chYXg2rgHaEU?pid=Api&rs=1"
+    },
+    {
+        "id":14,
+        "plato":"Gaseosas",
+        "precio":"0.75 $",
+        "Descripcion":"Coca,Fanta,Pepsi,Sprite",
+        "flag":"https://1.bp.blogspot.com/-w49_Hc9CDVU/WAqU5TCztBI/AAAAAAAAAGI/QrKEKjGbEpUUIRp1wYUNmf9KLG6hwji7wCLcB/s1600/17227538-Gruppe-von-verschiedenen-Marken-von-Softdrinks-in-Aluminiumdosen-auf-wei-mit-Clipping-Pfad-Marken-in-Lizenzfreie-Bilder.jpg"
+    },
+    {
+        "id":15,
+        "plato":"Bebidas Calientes",
+        "precio":"1.00 $",
+        "Descripcion":"Café,Chocolate,Té",
+        "flag":"https://www.deportesaludable.com/wp-content/uploads/2016/06/bebida-caliente-perjudicial-para-la-salud.jpg"
+    }
+],
+"programadores":[
+    {
+        "id": 1,
+        "Nombre": "Oscar Alexander Rodriguez Quintanilla",
+        "edad": 18,
+        "descripcion":"Joven con un muy buen gusto acerca de los diseños en css de las paginas web",
+        "flag":"img/oscar.jpg"
+
+    },
+    {
+        "id": 1,
+        "Nombre": "Jason Alexander Fuentes Reyes",
+        "edad": 18,
+        "descripcion":"Joven con un gran interes de obtener mas conocimientos de la programación",
+        "flag":"img/jason.jpeg"
+
+    },
+    {
+        "id": 1,
+        "Nombre": "Diego Alberto Sandoval Rivera",
+        "edad": 18,
+        "descripcion":"Joven que se apasiona por el buen aspecto y el buen resultado de cada trabajo que se lleva acabo",
+        "flag":"img/diego.jpeg"
+
+    }
+],
+
+
+"contactos":[
+    {
+        "id": 1,
+        "Nombre": "Oscar Alexander Rodriguez ",
+        "edad": 18,
+        "celular":"7918-0655",
+        "correo":"oaquintanillarodriguez@gmail.com",
+        "flag":"img/oscar.jpg"
+
+    },
+    {
+        "id": 1,
+        "Nombre": "Jason Alexander Fuentes ",
+        "edad": 18,
+        "celular":"7481-9876",
+        "correo":"peke3025@gmail.com",
+        "flag":"img/jason.jpeg"
+
+    },
+    {
+        "id": 1,
+        "Nombre": "Diego Alberto Sandoval",
+        "edad": 18,
+        "celular":"7050-8533",
+        "correo":"sandovaldiego21@gmail.com",
+        "flag":"img/diego.jpeg"
+
+    }
+]
+}
+

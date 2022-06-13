@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor h2{
+  
+    text-align: center;
+    font-size: 50px;
+    color: #1f1a0c;
+    text-shadow: 2px 2px 2px #F28705;
+    font-family: 'Righteous', cursive;
+    padding: 40px 0px 70px 0px;
+
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 85%;
+    margin: auto;
+
+}
+
+.txt-inicio{
+   
+    padding-right: 40px;
+}
+.txt-inicio p{
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 0.8;
+    padding-left: 10px;
+    font-family: 'nunito';
+}
+
+
+.comida1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comida1 img{
+
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+
+.mision,.valores{
+    width: 85%;
+    margin: auto;
+    padding-top:50px ;
+}
+ 
+.mision h3,.valores h3{
+    color: #1f1a0c;
+    text-shadow: 2px 2px 2px #F28705;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+    
+}
+
+.mision p{
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'nunito';
+    color: #000;
+
+}
+.valores p{
+    font-size: 20px;
+    padding-bottom: 20px;
+   text-align: center;
+    font-family: 'nunito';
+    color: #000;
+
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.video{
+    display: inline-block;
+    padding-top: 100px;
+    width: 80%;
+}
+
+.video video{
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+/*--------------------------------------Aplicar Estilos Responsivos PAGINA DE INICIO--------------------*/
+
+
+/*RESPONSIVE PARA CELULARES Y TABLES DE BAJA RESOLUCIÓN*/
+
+@media (max-width: 759px) {
+
+
+    .contenedor h2{
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .grid1{
+        grid-template-columns: 100%;
+    }
+
+    .comida1{
+        width: 100%;
+    }
+
+    .comida1 img{
+        width: 100%;
+        height:  90px;
+        text-align: center;
+    }
+
+    .comida1 img{
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .txt-inicio{
+       display: none;
+    }
+
+    .mision h3,.valores h3{
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .mision p,.valores p{
+        font-size: 14px;
+    }
+
+    .grid2{
+        grid-template-columns: 1fr ;
+    }
+
+    .video{
+        padding-top: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .video video{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+   
+}
+
+
+@media (min-width : 760px) and (max-width : 1025px){
+
+    .contenedor{
+        width: 95%;
+    }
+
+    .contenedor h2{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+
+    .grid1{
+        grid-template-columns: 45% 55%;
+    }
+
+    .txt-inicio p{
+        text-align: justify;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .comida1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .comida1 img{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .mision h3,.valores h3{
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .mision p,.valores p{
+        font-size: 20px;
+    }
+
+    .grid2{
+        grid-template-columns: 1fr ;
+    }
+
+    .video{
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .video video{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+   
+
+}
